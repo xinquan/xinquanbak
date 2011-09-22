@@ -4,4 +4,5 @@ filetype indent on
 filetype plugin on
 set guifont=Courier\ New:h13
 set ts=4
+set sw=4
 nmap <silent> <unique>  <Plug>SelectBuf
