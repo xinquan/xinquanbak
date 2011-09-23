@@ -15,4 +15,5 @@ alias mysql_stop="/usr/local/mysql/bin/mysqladmin -u root shutdown"
 
 alias "open_p"="sudo mv ~/Movies/.p ~/Movies/p; sudo chown -R ieagerly ~/Movies/p"
 alias "close_p"="sudo mv ~/Movies/p ~/Movies/.p; sudo chown -R root ~/Movies/.p"
-
+alias fuckGFW='ssh -qTfnN -D 7070 xinquan@98.142.220.251'
+alias err="tail -f /var/log/apache2/error_log"
